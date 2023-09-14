@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>Calculadora</title>
+</head>
+
+<body>
+    <div class="fundo">
+        <h1></h1>
+        <div class="calculadora">
+            <h2></i></h2>
+            <input class="input-number" type="text" id="input-box" placeholder="0">
+            <table>
+                <td><button class="botão-apagar"onclick="limparTela('EC')">EC</button></td>
+                <td><button class="botão-number"onclick="adicionarCaracter('%')">%</button>
+                <td><button class="botão-number"onclick="adicionarCaracter('.')">.</button></td>
+                <td><button class="botão-number"onclick="adicionarCaracter('/')">/</button></td>
+
+                </tr>
+
+                <tr>
+                    <td><button class="botão-number"onclick="adicionarCaracter('7')">7</button></td>
+                    <td><button class="botão-number"onclick="adicionarCaracter('8')">8</button></td>
+                    <td><button class="botão-number"onclick="adicionarCaracter('9')">9</button></td>
+                    <td><button class="botão-number"onclick="adicionarCaracter('x')">x</button></td>
+
+                </tr>
+
+                <tr>
+                    <td><button class="botão-number"onclick="adicionarCaracter('4')">4</button></td>
+                    <td><button class="botão-number"onclick="adicionarCaracter('5')">5</button></td>
+                    <td><button class="botão-number"onclick="adicionarCaracter('6')">6</button></td>
+                    <td><button class="botão-number"onclick="adicionarCaracter('-')">-</button></td>
+                </tr>
+                <tr>
+                    <td><button class="botão-number"onclick="adicionarCaracter('1')">1</button></td>
+                    <td><button class="botão-number"onclick="adicionarCaracter('2')">2</button></td>
+                    <td><button class="botão-number"onclick="adicionarCaracter('3')">3</button></td>
+                    <td><button class="botão-number" onclick="adicionarCaracter('+')">+</button></td>
+
+                </tr>
+                <tr>
+                    <td><button class="botão-number"onclick="adicionarCaracter('0')">0</button></td>
+                    <td><button class="botão-number"onclick="adicionarCaracter('.')">.</button></td>
+                    <td><button class="botão-number"onclick="calcularValor()">=</button></td>
+                    <td><button class="botão-multiplicar"onclick="adicionarCaracter('*')">*</button></td>
+                </tr>
+            </table>
+
+
+
+</body>
+<script src="./arquivo.js"></script>
+
+</html>
